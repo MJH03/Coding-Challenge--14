@@ -5,9 +5,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Coding Challenge #14</title>
-    <script src="calc.js"></script>
+    
 </head>
 <body>
-    
+    <h1>Financial Calulator</h1>
+    <div>
+        <h3>Interest Amount</h3>
+        <input type="number" name="Principal" id="Principal" placeholder="Principal">
+        <input type="number" name="Rate" id="Rate" placeholder="Rate">
+        <input type="number" name="Time" id="Time" placeholder="Time">
+        <button id="calculateInterestRateBtn">Calculate Interest</button>
+    </div>
+    <div>
+        <h3>Payment Amount</h3>
+        <input type="number" name="loanPrincipal" id="loanPrincipal" placeholder="Principal">
+        <input type="number" name="loanRate" id="loanRate" placeholder="Rate">
+        <input type="number" name="loanValue" id="loanValue" placeholder="Value">
+        <button id="calculateLoanPaymentBtn">Calculate Payment</button>
+    </div>
+    <div>
+        <h3>Investment Amount</h3>
+        <input type="number" name="investPrincipal" id="investPrincipal" placeholder="Principal">
+        <input type="number" name="investRate" id="investRate" placeholder="Rate">
+        <input type="number" name="investTime" id="investTime" placeholder="Time">
+        <input type="number" name="investValue" id="investValue" placeholder="Value"> 
+        <button id="calculateInvestmentReturnBtn">Calculate Investment Return</button>
+    </div>
+    <div>
+        <p id="interestAmount"></p>
+        <p id="paymentAmount"></p>
+        <p id="returnAmount"></p>
+    </div>
+
+    <script type="module" src="main.js"></script>
 </body>
 </html>
