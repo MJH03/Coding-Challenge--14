@@ -1,0 +1,1 @@
+//Module for calculating the investment return for stocks or bonds
