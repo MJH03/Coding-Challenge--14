@@ -1,0 +1,20 @@
+body{
+    background-color: lightcoral;
+}
+button{
+    background-color: cyan;
+    color: blue;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+h1{
+    color: mediumblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    color: mediumblue;
+    font-family: 'Times New Roman', Times, serif;
+}
